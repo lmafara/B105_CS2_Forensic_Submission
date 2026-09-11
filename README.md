@@ -8,7 +8,7 @@
 
 This repository contains the forensic examination of a network packet capture (`nitroba.pcap`) submitted as evidence in a harassment complaint. Chemistry 109 instructor **Lily Tuckrige** reported receiving a threatening electronic message warning her to stop teaching, sent via a web-based anonymous messaging service (`willselfdestruct.com`).
 
-The investigation reconstructs the website interaction flow, recovers the verbatim threatening message, identifies the sending device by IP and MAC address, and correlates that device against identity-bearing artefacts (authenticated web sessions) found elsewhere in the same capture — cross-referenced against the Chemistry 109 class roster.
+The investigation reconstructs the website interaction flow, recovers the verbatim threatening message, identifies the sending device by IP and MAC address, and correlates that device against identity-bearing artefacts (authenticated web sessions) found elsewhere in the same capture cross-referenced against the Chemistry 109 class roster.
 
 ## Repository Structure
 
@@ -76,7 +76,7 @@ Four additional files (`mycapture.pcap`, `mycapture10_10_81.75.pcap`, `mycapture
 
 ## Disclaimer
 
-This is an academic digital forensics exercise using a publicly available training dataset (the Nitroba scenario) created for DFIR education and tool-testing purposes. No real individuals or live systems are involved. Identity attribution in this report reflects packet-level evidence only and is explicitly qualified with confidence levels and alternative explanations — it does not constitute proof of legal culpability.
+This is an academic digital forensics exercise using a publicly available training dataset (the Nitroba scenario) created for DFIR education and tool testing purposes. No real individuals or live systems are involved. Identity attribution in this report reflects packet-level evidence only and is explicitly qualified with confidence levels and alternative explanations it does not constitute proof of legal culpability.
 
 ## Author
 
